@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\BuddeesR\AppData\Local\Temp\testng-eclipse-1482787155\testng-customsuite.xml</span>
+                    <span>C:\Users\BuddeesR\AppData\Local\Temp\testng-eclipse--1772191739\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,7 +103,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="udb.testcases.TestGetAllUsers" class="method navigator-link" hash-for-method="verifyGetAllUsersAPI">verifyGetAllUsersAPI</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="udb.testcases.CreateUser" class="method navigator-link" hash-for-method="verifyCreateUser({TestCaseNo=TC103, Execution=Positive, HttpMethod=POST, Request=&quot;name&quot;:&quot;Rbs&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;email&quot;...)">verifyCreateUser({TestCaseNo=TC103, Execution=Positive, HttpMethod=POST, Request="name":"Rbs","gender":"male","email"...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -121,14 +121,15 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">udb.testcases.TestGetAllUsers</span>
+              <span class="class-name">udb.testcases.CreateUser</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyGetAllUsersAPI">
-                  </a> <!-- verifyGetAllUsersAPI -->
-                  <span class="method-name">verifyGetAllUsersAPI</span>
+                  <a name="verifyCreateUser({TestCaseNo=TC103, Execution=Positive, HttpMethod=POST, Request=&quot;name&quot;:&quot;Rbs&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;email&quot;...)">
+                  </a> <!-- verifyCreateUser({TestCaseNo=TC103, Execution=Positive, HttpMethod=POST, Request="name":"Rbs","gender":"male","email"...) -->
+                  <span class="method-name">verifyCreateUser</span>
+                  <span class="parameters">({TestCaseNo=TC103, Execution=Positive, HttpMethod=POST, Request="name":"Rbs","gender":"male","email":"rbs@15ce.com","status":"active", HttpUrl=, Description=, Expected Response Code=})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,7 +137,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\BuddeesR\AppData\Local\Temp\testng-eclipse-1482787155\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\BuddeesR\AppData\Local\Temp\testng-eclipse--1772191739\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,11 +146,11 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;udb.testcases.TestGetAllUsers&quot;&gt;
+      &lt;class name=&quot;udb.testcases.CreateUser&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;verifyGetAllUsersAPI&quot;/&gt;
+          &lt;include name=&quot;verifyCreateUser&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- udb.testcases.TestGetAllUsers --&gt;
+      &lt;/class&gt; &lt;!-- udb.testcases.CreateUser --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -191,14 +192,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyGetAllUsersAPI')
-data.setCell(0, 2, 'udb.testcases.TestGetAllUsers')
-data.setCell(0, 3, 2636);
+data.setCell(0, 1, 'verifyCreateUser')
+data.setCell(0, 2, 'udb.testcases.CreateUser')
+data.setCell(0, 3, 9);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 9 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -224,18 +225,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">udb.testcases.TestGetAllUsers</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">udb.testcases.CreateUser</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">verifyGetAllUsersAPI</span>
-                <span class="method-start">45 ms</span>
+                <span class="method-name">verifyCreateUser({TestCaseNo=TC103, Execution=Positive, HttpMethod=POST, Request="name":"Rbs","gender":"male","email"...)</span>
+                <span class="method-start">98 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">2692 ms</span>
+                <span class="method-start">112 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
