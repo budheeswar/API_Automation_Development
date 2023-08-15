@@ -3,13 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="udb.testcases.CreateUser">
+      <class name="udb.suites.GETUserSuite">
         <methods>
-          <include name="beforeTest"/>
-          <include name="verifyCreateUser" invocation-numbers="0"/>
+          <include name="after_method"/>
+          <include name="beforeSuite"/>
           <include name="afterTest"/>
+          <include name="testGetUser" invocation-numbers="1"/>
+          <include name="before_method"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
         </methods>
-      </class> <!-- udb.testcases.CreateUser -->
+      </class> <!-- udb.suites.GETUserSuite -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,3 @@
+TestCaseNo,HttpMethod,Description,Request,Expected Message,Expected Response Code
+TC101,GET,verify Get All Users API,,,200
+TC102,GET,verify User can fetch Data by ID,4420364,,200

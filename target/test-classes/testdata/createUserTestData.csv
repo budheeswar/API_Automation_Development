@@ -1,2 +1,0 @@
-TestCaseNo,Execution,HttpMethod,Request,HttpUrl,Description,Expected Response Code
-TC103,Positive,POST,"""name"":""Rbs"",""gender"":""male"",""email"":""rbs@15ce.com"",""status"":""active""",,,

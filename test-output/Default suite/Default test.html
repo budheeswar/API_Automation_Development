@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Aug 10 19:37:20 IST 2023</td>
+<td>Started on:</td><td>Tue Aug 15 15:09:30 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (128 ms)</td>
+<tr><td>Total time:</td><td>3 seconds (3251 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,10 +76,32 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='udb.testcases.CreateUser.verifyCreateUser()'><b>verifyCreateUser</b><br>Test class: udb.testcases.CreateUser<br>Parameters: {TestCaseNo=TC103, Execution=Positive, HttpMethod=POST, Request="name":"Rbs","gender":"male","email":"rbs@15ce.com","status":"active", HttpUrl=, Description=, Expected Response Code=}</td>
+<td title='udb.suites.GetUser_APIChainingSuite.verifyGetIdFromUsersList()'><b>verifyGetIdFromUsersList</b><br>Test class: udb.suites.GetUser_APIChainingSuite<br>Parameters: org.testng.TestRunner@4fbe37eb, {TestCaseNo=TC105}<br/>
+<a href="#Output-1490735178" onClick='toggleBox("Output-1490735178", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1490735178" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1490735178">
+Calling GetAllUsers API <br/>
+Got Response Code 200<br/>
+Passing ID 4420381 as Input to Another API<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>udb.suites.GetUser_APIChainingSuite@17fc391b</td></tr>
+<tr>
+<td title='udb.suites.GetUser_APIChainingSuite.verifyGetByIDChaining()'><b>verifyGetByIDChaining</b><br>Test class: udb.suites.GetUser_APIChainingSuite<br>Parameters: org.testng.TestRunner@4fbe37eb<br/>
+<a href="#Output-627707285" onClick='toggleBox("Output-627707285", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-627707285" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-627707285">
+Fetching Data by ID taken from API_Response<br/>
+Exception occured while Fetching DATA in method verifyGetByIDChaining<br/>
+</div>
+</td>
 <td></td>
 <td>0</td>
-<td>udb.testcases.CreateUser@221a3fa4</td></tr>
+<td>udb.suites.GetUser_APIChainingSuite@17fc391b</td></tr>
 </table><p>
 </body>
 </html>
