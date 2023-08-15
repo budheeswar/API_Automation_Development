@@ -1,0 +1,3 @@
+TestCaseNo,HttpMethod,Description,Request,Expected Message,Expected Response Code
+TC103,POST,verify User can be created  with valid Request,"""name"":""virat"",""gender"":""male"",""email"":""virat123@gmail.com"",""status"":""active""",,201
+TC104,POST,verify User should receive warning message if already name/email exist.,"""name"":""mahiii"",""gender"":""male"",""email"":""mahiii123@gmail.com"",""status"":""active""",has already been taken,200

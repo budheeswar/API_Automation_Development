@@ -47,9 +47,10 @@ public class CsvDataProvider {
 		try {
 			System.out.println(method.getDeclaringClass());
 			System.out.println(method.getName());
+			Class<?> cls =  method.getDeclaringClass();
 			Map<String, String> concurrentMap = null;
 			String dir = System.getProperty("user.dir");
-			String inputDataFileAbsPath = dir + "/src/test/resources/testdata/createUserTestData.csv";
+			String inputDataFileAbsPath = dir + "/src/test/resources/testdata/"+cls.getSimpleName()+"."+method.getName()+".csv";
 			System.out.println("PATH "+inputDataFileAbsPath);
 			List<Map<String, String>> testDataList = getDataProvider(inputDataFileAbsPath);
 			dp = new CopyOnWriteArrayList<>();
